@@ -1,0 +1,7 @@
+.Photos {
+  display: grid;
+  width: 100%;
+  grid-column-gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+}

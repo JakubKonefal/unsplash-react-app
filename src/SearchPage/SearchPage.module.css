@@ -1,0 +1,39 @@
+.SearchPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  color: #fff;
+}
+
+.Title {
+  width: 100%;
+  margin: 0 0 12px;
+  font-size: 3.5rem;
+  text-align: left;
+}
+
+.Subtitle {
+  width: 100%;
+  margin: 0 0 24px;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.SubtitleMark {
+  background-color: transparent;
+  color: #5ed3f3;
+}

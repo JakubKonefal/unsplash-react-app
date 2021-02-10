@@ -1,0 +1,107 @@
+.InputWraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.Input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75em 50px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.3rem;
+}
+
+.Input:focus {
+  box-shadow: 0 0 2px 2px #5ed3f3;
+}
+
+.InputSearchIcon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 30px;
+  color: #555;
+}
+
+.InputClearIcon {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 30px;
+  color: #555;
+  cursor: pointer;
+}
+
+.InputClearIcon:hover {
+  color: rgb(220, 26, 26);
+}
+
+.AutocompleteOptions {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.AutocompleteOption {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.3em 50px;
+  background-color: #fff;
+}
+
+.AutocompleteOption:hover {
+  background-color: #f1f1f1;
+}
+
+.AutocompleteOption:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.AutocompleteOption:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.AutocompleteLink {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 1.3rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.NoResultsMessage {
+  width: 100%;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.Button {
+  display: none;
+}
+
+.Hidden {
+  display: none;
+}
+
+.Active {
+  background-color: #f1f1f1;
+}
